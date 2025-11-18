@@ -1,0 +1,84 @@
+[Rule]
+# ===== 中国大陆银行相关流量直连 =====
+
+# 银联
+DOMAIN-SUFFIX,95516.com,DIRECT
+DOMAIN-SUFFIX,unionpay.com,DIRECT
+DOMAIN-SUFFIX,chinaunionpay.com,DIRECT
+
+# 工商银行
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+DOMAIN-SUFFIX,95588.com,DIRECT
+
+# 农业银行
+DOMAIN-SUFFIX,abchina.com,DIRECT
+DOMAIN-SUFFIX,95599.cn,DIRECT
+
+# 中国银行
+DOMAIN-SUFFIX,boc.cn,DIRECT
+DOMAIN-SUFFIX,boc.cn,DIRECT
+DOMAIN-SUFFIX,bank-of-china.com,DIRECT
+
+# 建设银行
+DOMAIN-SUFFIX,ccb.com,DIRECT
+DOMAIN-SUFFIX,95533.com,DIRECT
+
+# 交通银行
+DOMAIN-SUFFIX,bankcomm.com,DIRECT
+DOMAIN-SUFFIX,95559.com.cn,DIRECT
+
+# 招商银行
+DOMAIN-SUFFIX,cmbchina.com,DIRECT
+DOMAIN-SUFFIX,95555.com,DIRECT
+
+# 中信银行
+DOMAIN-SUFFIX,citicbank.com,DIRECT
+
+# 光大银行
+DOMAIN-SUFFIX,cebbank.com,DIRECT
+
+# 民生银行
+DOMAIN-SUFFIX,cmbc.com.cn,DIRECT
+
+# 兴业银行
+DOMAIN-SUFFIX,cib.com.cn,DIRECT
+
+# 浦发银行
+DOMAIN-SUFFIX,spdb.com.cn,DIRECT
+
+# 平安银行
+DOMAIN-SUFFIX,bank.pingan.com,DIRECT
+DOMAIN-SUFFIX,pingan.com,DIRECT
+DOMAIN-SUFFIX,pingan.com.cn,DIRECT
+
+# 华夏银行
+DOMAIN-SUFFIX,hxb.com.cn,DIRECT
+
+# 广发银行
+DOMAIN-SUFFIX,cgbchina.com.cn,DIRECT
+
+# 北京银行
+DOMAIN-SUFFIX,bankofbeijing.com.cn,DIRECT
+
+# 上海银行
+DOMAIN-SUFFIX,bankofshanghai.com,DIRECT
+
+# 宁波银行
+DOMAIN-SUFFIX,nbcb.com.cn,DIRECT
+
+# 江苏银行
+DOMAIN-SUFFIX,jsbchina.cn,DIRECT
+
+# 浙商银行
+DOMAIN-SUFFIX,czbank.com,DIRECT
+
+# 渤海银行
+DOMAIN-SUFFIX,cbhb.com.cn,DIRECT
+
+# 邮储银行
+DOMAIN-SUFFIX,psbc.com,DIRECT
+
+# 一些泛用关键词兜底（可选）
+DOMAIN-KEYWORD,95516,DIRECT
+DOMAIN-KEYWORD,unionpay,DIRECT
+DOMAIN-KEYWORD,ebank,DIRECT
